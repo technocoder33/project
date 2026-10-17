@@ -6,12 +6,6 @@ graph = {
     "E": {} 
 }  
 
-graph["A"]["C"] = 1 
-graph["C"]["A"] = 1  
-
-graph["D"]["E"] = 4 
-graph["E"]["D"] = 4  
-
 def relax_neighbors(graph, distances, parent, current):     
     for neighbor, weight in graph[current].items():         
         new_distance = distances[current] + weight          
