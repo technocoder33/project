@@ -1,0 +1,7 @@
+start,end,distance_m,shade_pct,heat_index
+A,B,180,5,32
+B,F,220,10,32
+A,C,150,70,30
+C,D,150,95,30
+D,E,150,90,30
+E,F,150,80,30
