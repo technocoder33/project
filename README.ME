@@ -1,10 +1,22 @@
-run by using python main.py
-save using ctrl+s or cmd+s
-topic: build a Python tool that turns heat
-data into decisions for real people. It could help a resident plan a cooler route or time for an activity.
-It could help a school schedule outdoor CCA safely. It could also help a town council rank which
-blocks most need shade, greenery or cooling. How can data make an invisible risk visible and
-actionable?
-this would reduce the amount of exposure to sunlight to prevent sunburns or skin diseases
+# Pathfinder
 
-our code is based mostly on the Dijkstra's algorithm.
+A Python program that finds the shortest and cooler walking routes.
+
+## How to run
+
+Keep `main.py` and `paths.csv` in the same folder.
+
+Run:
+```bash
+python3 main.py
+```
+
+Enter a start and destination (A–F). The program shows both routes, their distances, walking times and heat scores.
+
+## How it works
+
+- Uses Dijkstra's algorithm to find routes.
+- Uses distance, shade and heat values from `paths.csv`.
+- Uses two classes: `RouteMap` and `RoutePlanner`.
+
+The CSV uses sample data, not real measurements.
